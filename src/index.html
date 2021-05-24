@@ -13,16 +13,18 @@
   <body>
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-      method="post" onsubmit="onSubmit()"
+      method="post"
+      onsubmit="onSubmit()"
     >
-      <fieldset name="Personal information">
+      <fieldset class="fieldset" name="Personal information">
         <legend>Personal information</legend>
         <label class="form-field" for="surname">
           Surname:
           <input
           type="text"
           id="surname"
-          required>
+          required
+          >
         </label>
 
         <label class="form-field" for="name">
@@ -46,7 +48,8 @@
            >
         </label>
 
-        <label class="form-field" for="birth">Full date of birth:
+        <label class="form-field" for="birth">
+          Full date of birth:
           <input
           type="date"
           id="birth"
@@ -63,7 +66,7 @@
         </label>
       </fieldset>
 
-      <fieldset name="Registration">
+      <fieldset class="fieldset" name="Registration">
         <legend>Registration</legend>
         <label for="E-mail" class="form-field">E-mail:
           <input type="email"
@@ -82,7 +85,7 @@
         </label>
       </fieldset>
 
-      <fieldset name="An interesting fact about you!">
+      <fieldset class="fieldset" name="An interesting fact about you!">
         <legend>An interesting fact about you!</legend>
         <div class="form-field">
           Do you love cats?
@@ -131,7 +134,7 @@
         </label>
       </fieldset>
 
-      <fieldset name="Additional info">
+      <fieldset class="fieldset" name="Additional info">
         <legend>Additional info:</legend>
         <label for="comments" class="form-field">
           Comments:
