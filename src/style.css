@@ -1,14 +1,8 @@
-/* styles go here */
-.form-field {
+.form-field:not(.first) {
   display: block;
+  margin-top: 10px;
 }
 
 .fieldset {
   margin-bottom: 20px;
-}
-
-/* Всім блокам label окрім останнього в кожному із fieldset 
-нижній відступ 20піксель */
-fieldset > :not(:last-child):not(legend) {
-  margin-bottom: 10px;
 }
